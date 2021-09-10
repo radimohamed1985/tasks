@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+/* body background pic start ------- body backgound becouse its just one page as test  not section */
+body{
+        background-image: url(../data/slider_1623674465.jpg);
+        width: 100%;
+        background-size:cover;
+        height:675px;
+}
+
+/* body background pic start */
+/* nav bar and links start */
+.nav-link{
+    color: white;
+    font-weight: 600;
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.active{
+    color: rgb(93, 93, 196);
+}
+.nav-link:active{
+    color: blue;
+}
+
+.navbar-toggler{
+ border: 1px solid white;
+}
+.booking{
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: #000011;
+}
+/* nav bar and links end */
+/* ads and main section :start */
+
+.ads{
+    width: 350px;
+    height: 200px;
+    background-color:black;
+   opacity: .8;
+   position: absolute;
+   margin-top: 8%;
+   margin-left: 30%;
+   border-radius: 10px;
+   border: 1px solid white;
+   color: white;
+   padding-top: 10px;
+   text-shadow: cornsilk;
+}
+@media (max-width:1000px) {
+    .ads{
+        margin-left: 20%;
+    }
+}
+.ads h2,h4{
+    font-size: 38px;
+    font-weight: bolder;
+}
+.ads h3{
+    font-size: xx-large;
+    font-weight: bolder;
+    color:#f15a22;
+    font-weight: 800;
+}
+
+
+/* ads and main section :start */
+/* icon section start */
+.icon{
+    position: relative;
+  margin-top: 25%;
+    margin-left: 39%;
+    color: white;
+    
+}
+@media (max-width: 1300px) {
+    .icon{
+        position: relative;
+       top: 120px;
+        margin-left: 30%;
+        color: white;
+    }
+}
+.fram{
+    width: 50px;
+    height: 50px;
+    line-height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    border: 1px solid white;
+    margin: 5px;
+
+}
+.icon a{
+    color: white;
+}
+/* icon section end */
